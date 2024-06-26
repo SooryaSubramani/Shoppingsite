@@ -20,13 +20,17 @@
 
     <script>
 
- signin = document.getElementsByTagName('body')
-      function Login(){
+     function Login(){
         window.location.href="./login.html";
       }
+
+    function signUp(){
+        window.location.href="./SignUP.html";
+      }
+
     </script>
 
-    
+       
 </head>
 <body>
 
@@ -69,7 +73,7 @@
     
             <div class="text-end">
               <button type="button" class="btn btn-outline-light me-2" onclick="Login()">Login</button>
-              <button type="button" class="btn btn-warning">Sign-up</button>
+              <button type="button" class="btn btn-warning" onclick="signUp()">Sign-up</button>
             </div>
           </div>
         </div>
